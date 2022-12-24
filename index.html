@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="source/style.css" />
+    </head>
+<body>
+    <h1>
+Wheather forecast
+    </h1>
+<h2 id = "city">
+searching
+</h2>
+    <p>
+        <form id="password-form">
+        <input type="search" id="city-input" placeholder="Type a city">
+        <input id = "search-button" type="submit" value="search">
+        <button type="button">current</button>
+      </form>
+    </p>
+
+    <h3>
+        time
+    </h3>
+    <h4>
+      🌞
+      <span id="discription">discription</span>
+    </h4>
+    <h5>
+      <div class="float-left">
+        <span class="temperature" id="temperature">19</span>
+        <span class="units"> <a href ="#" id="celsius-link"> *C </a> | <a href="#" id="fahrenheit-link">*F</a></span>
+      </div>
+    </h5>
+    <ul>
+      <li>
+        humidity <span id = "humidity">77</span> %
+      </li>
+      <li>
+        wind <span id = "wind">5</span> km/h
+      </li>
+    </ul>
+
+<script src="source/index.js"></script>
+   
+  </body>
+</html>

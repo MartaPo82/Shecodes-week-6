@@ -1,0 +1,41 @@
+body {
+  background: radial-gradient(
+    circle at 172.1% -5.6%,
+    rgb(131, 184, 248) 0%,
+    rgb(44, 16, 110) 100.2%
+  );
+}
+h1 {
+  font-weight: bold;
+  font-style: inherit;
+  color: rgb(222, 188, 79);
+  text-shadow: #0e0b1a;
+}
+
+h2 {
+  color: rgb(222, 188, 79);
+  font-size: large;
+}
+button {
+  color: #ffff;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: #8064e9;
+}
+form .search-button {
+  color: #ffff;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: #8064e9;
+}
+.temperature {
+  color: aliceblue;
+  font-size: 50px;
+}
+li {
+  color: aliceblue;
+  font-size: 15px;
+}
+.units {
+  color: rgb(222, 188, 79);
+}

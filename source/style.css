@@ -6,15 +6,17 @@ body {
   );
 }
 h1 {
-  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
   font-style: inherit;
   color: rgb(222, 188, 79);
-  text-shadow: #0e0b1a;
+  text-shadow: 3px 3px 5px #0e0b1a;
 }
 
 h2 {
   color: rgb(222, 188, 79);
-  font-size: large;
+  font-size: 30px;
+  text-shadow: 3px 3px 5px #0e0b1a;
 }
 button {
   color: #ffff;
@@ -22,20 +24,34 @@ button {
   font-size: 16px;
   background-color: #8064e9;
 }
+p {
+  font-size: 20px;
+}
+h3 {
+  color: #ffff;
+  text-shadow: 3px 3px 5px #0e0b1a;
+}
+
 form .search-button {
   color: #ffff;
   border-radius: 25px;
-  font-size: 16px;
+  font-size: 20px;
   background-color: #8064e9;
+  padding: 20px, 10px;
+  margin: 20px, 10px;
 }
 .temperature {
-  color: aliceblue;
-  font-size: 50px;
+  color: rgb(222, 188, 79);
+  font-size: 100px;
+  text-shadow: 3px 3px 5px #0e0b1a;
 }
 li {
   color: aliceblue;
   font-size: 15px;
 }
 .units {
+  color: rgb(222, 188, 79);
+}
+.discription {
   color: rgb(222, 188, 79);
 }
